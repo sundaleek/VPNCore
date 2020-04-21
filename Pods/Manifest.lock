@@ -1,0 +1,101 @@
+PODS:
+  - Convenience (0.0.1):
+    - Convenience/About (= 0.0.1)
+    - Convenience/Alerts (= 0.0.1)
+    - Convenience/Awesome (= 0.0.1)
+    - Convenience/Dialogs (= 0.0.1)
+    - Convenience/InApp (= 0.0.1)
+    - Convenience/Keychain (= 0.0.1)
+    - Convenience/Misc (= 0.0.1)
+    - Convenience/Options (= 0.0.1)
+    - Convenience/Persistence (= 0.0.1)
+    - Convenience/Reviewer (= 0.0.1)
+    - Convenience/Tables (= 0.0.1)
+    - Convenience/WebServices (= 0.0.1)
+  - Convenience/About (0.0.1):
+    - Convenience/Tables
+  - Convenience/Alerts (0.0.1)
+  - Convenience/Awesome (0.0.1):
+    - FontAwesome.swift
+  - Convenience/Dialogs (0.0.1):
+    - MBProgressHUD
+  - Convenience/InApp (0.0.1)
+  - Convenience/Keychain (0.0.1)
+  - Convenience/Misc (0.0.1)
+  - Convenience/Options (0.0.1)
+  - Convenience/Persistence (0.0.1)
+  - Convenience/Reviewer (0.0.1)
+  - Convenience/Tables (0.0.1)
+  - Convenience/WebServices (0.0.1):
+    - SwiftyBeaver
+  - DTFoundation/Core (1.7.14)
+  - DTFoundation/DTASN1 (1.7.14):
+    - DTFoundation/Core
+  - FontAwesome.swift (1.9.0)
+  - Kvitto (1.0.3):
+    - DTFoundation/DTASN1 (~> 1.7.13)
+    - Kvitto/Core (= 1.0.3)
+  - Kvitto/Core (1.0.3):
+    - DTFoundation/DTASN1 (~> 1.7.13)
+  - MBProgressHUD (1.2.0)
+  - OpenSSL-Apple (1.1.1g.6)
+  - SSZipArchive (2.2.2)
+  - SwiftyBeaver (1.9.1)
+  - TunnelKit/AppExtension (2.2.2):
+    - SwiftyBeaver
+    - TunnelKit/Core
+  - TunnelKit/Core (2.2.2):
+    - SwiftyBeaver
+  - TunnelKit/Extra/LZO (2.2.2)
+  - TunnelKit/Protocols/OpenVPN (2.2.2):
+    - OpenSSL-Apple (~> 1.1.1f.6)
+    - TunnelKit/AppExtension
+    - TunnelKit/Core
+
+DEPENDENCIES:
+  - Convenience (from `https://github.com/keeshux/convenience.git`)
+  - Kvitto
+  - MBProgressHUD
+  - SSZipArchive
+  - TunnelKit/Extra/LZO (from `https://github.com/passepartoutvpn/tunnelkit`, commit `7ba0225`)
+  - TunnelKit/Protocols/OpenVPN (from `https://github.com/passepartoutvpn/tunnelkit`, commit `7ba0225`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DTFoundation
+    - FontAwesome.swift
+    - Kvitto
+    - MBProgressHUD
+    - OpenSSL-Apple
+    - SSZipArchive
+    - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  Convenience:
+    :git: https://github.com/keeshux/convenience.git
+  TunnelKit:
+    :commit: 7ba0225
+    :git: https://github.com/passepartoutvpn/tunnelkit
+
+CHECKOUT OPTIONS:
+  Convenience:
+    :commit: 3a191e82d7283cffd00ec287f7193e696ba598c7
+    :git: https://github.com/keeshux/convenience.git
+  TunnelKit:
+    :commit: 7ba0225
+    :git: https://github.com/passepartoutvpn/tunnelkit
+
+SPEC CHECKSUMS:
+  Convenience: 230739dd640bb826b640765d93715744721726be
+  DTFoundation: 25aa19bb7c6e225b1dfae195604fb8cf1da0ab4c
+  FontAwesome.swift: a403b88cec950511745ba8f2decd1b6a07346d13
+  Kvitto: d451f893f84ad669850b7cb7d3f8781363e14232
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  OpenSSL-Apple: c9c1b9c5b2b1fc4e1758fc5f0836b58ae7fd8183
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+  TunnelKit: d6401d4b2117238c0e820f95fc4a49a4fd61c126
+
+PODFILE CHECKSUM: 511113ecb90cbffe40f3e1858568fa4e1947c3e5
+
+COCOAPODS: 1.7.5

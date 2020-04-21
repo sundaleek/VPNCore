@@ -1,0 +1,150 @@
+{
+  "name": "Convenience",
+  "version": "0.0.1",
+  "summary": "FIXME",
+  "homepage": "https://github.com/keeshux/convenience",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Davide De Rosa": "keeshux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/keeshux/convenience.git",
+    "tag": "v0.0.1"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "About",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/About/*.{swift,xib}",
+        "dependencies": {
+          "Convenience/Tables": [
+
+          ]
+        }
+      }
+    },
+    {
+      "name": "Alerts",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/Alerts/*.{swift,xib}"
+      }
+    },
+    {
+      "name": "Awesome",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/Awesome/*.{swift,xib}",
+        "dependencies": {
+          "FontAwesome.swift": [
+
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dialogs",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/Dialogs/*.{swift,xib}",
+        "dependencies": {
+          "MBProgressHUD": [
+
+          ]
+        }
+      }
+    },
+    {
+      "name": "InApp",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "source_files": "Convenience/InApp/*.{swift,xib}",
+      "frameworks": "StoreKit"
+    },
+    {
+      "name": "Keychain",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "source_files": "Convenience/Keychain/*.{swift,xib}"
+    },
+    {
+      "name": "Misc",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "source_files": "Convenience/Misc/*.{swift,xib}"
+    },
+    {
+      "name": "Options",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/Options/*.{swift,xib}"
+      }
+    },
+    {
+      "name": "Persistence",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "source_files": "Convenience/Persistence/*.{swift,xib}"
+    },
+    {
+      "name": "Reviewer",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "source_files": "Convenience/Reviewer/*.{swift,xib}"
+    },
+    {
+      "name": "Tables",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "ios": {
+        "source_files": "Convenience/Tables/*.{swift,xib}"
+      }
+    },
+    {
+      "name": "WebServices",
+      "platforms": {
+        "ios": "11.0",
+        "osx": "10.11"
+      },
+      "dependencies": {
+        "SwiftyBeaver": [
+
+        ]
+      },
+      "source_files": "Convenience/WebServices/*.{swift,xib}"
+    }
+  ],
+  "swift_version": "5.0"
+}

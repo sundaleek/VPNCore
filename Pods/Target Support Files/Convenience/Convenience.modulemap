@@ -1,0 +1,6 @@
+framework module Convenience {
+  umbrella header "Convenience-umbrella.h"
+
+  export *
+  module * { export * }
+}

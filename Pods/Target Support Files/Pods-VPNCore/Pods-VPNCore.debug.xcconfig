@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Convenience" "${PODS_CONFIGURATION_BUILD_DIR}/DTFoundation" "${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift" "${PODS_CONFIGURATION_BUILD_DIR}/Kvitto" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver" "${PODS_CONFIGURATION_BUILD_DIR}/TunnelKit" "${PODS_ROOT}/OpenSSL-Apple/frameworks/iPhone"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Convenience/Convenience.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DTFoundation/DTFoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome_swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Kvitto/Kvitto.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive/SSZipArchive.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver/SwiftyBeaver.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TunnelKit/TunnelKit.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"iconv" -l"resolv" -l"z" -framework "Convenience" -framework "CoreGraphics" -framework "CoreText" -framework "DTFoundation" -framework "FontAwesome_swift" -framework "Kvitto" -framework "MBProgressHUD" -framework "NetworkExtension" -framework "QuartzCore" -framework "SSZipArchive" -framework "Security" -framework "StoreKit" -framework "SwiftyBeaver" -framework "TunnelKit" -framework "UIKit" -framework "openssl"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
