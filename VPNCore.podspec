@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-s.name         = "VPNCore"
-s.version      = "1.0.0"
-s.summary      = "A knob control like the UISlider, but in a circular form."
-s.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
-s.homepage     = "http://raywenderlich.com"
+spec.name         = "VPNCore"
+spec.version      = "1.0.0"
+spec.summary      = "A knob control like the UISlider, but in a circular form."
+spec.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
+spec.homepage     = "http://raywenderlich.com"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
