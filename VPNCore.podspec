@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "VPNCore"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Sample framework"
   spec.homepage = "https://github.com/sundaleek/VPNCore"
   spec.license = "MIT"
@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/sundaleek/VPNCore.git", :tag => spec.version.to_s }
   spec.platform     = :ios
   spec.ios.deployment_target = "9.1"
-  spec.source_files = "*"
+  spec.source_files = "VPNCore/*"
 
 end
