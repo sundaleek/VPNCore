@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "VPNCore"
-  spec.version = "1.0.4"
+  spec.version = "1.0.5"
   spec.summary = "Sample framework"
   spec.homepage = "https://github.com/sundaleek/VPNCore"
   spec.license = "MIT"
