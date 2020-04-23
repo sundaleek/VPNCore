@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "VPNCore"
-  spec.version = "1.0.5"
+  spec.version = "1.0.6"
   spec.summary = "Sample framework"
   spec.homepage = "https://github.com/sundaleek/VPNCore"
   spec.license = "MIT"
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.1"
   spec.source_files = "VPNCore/**/*.{h,m,swift}"
   spec.dependency "MBProgressHUD"
-  spec.dependency "Convenience" "~> v#0.0.1"
+  spec.dependency "Convenience" "~> 0.0.1"
   spec.dependency "Kvitto"
   spec.dependency "SSZipArchive" 
   spec.dependency "TunnelKit"
