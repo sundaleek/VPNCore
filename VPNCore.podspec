@@ -13,5 +13,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "9.1"
   spec.source_files = "VPNCore/**/*.{h,m,swift}"
-
+  spec.dependency "MBProgressHUD"
+  spec.dependency "Convenience" "~> v#0.0.1"
+  spec.dependency "Kvitto"
+  spec.dependency "SSZipArchive" 
+  spec.dependency "TunnelKit"
 end
